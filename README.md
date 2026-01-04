@@ -60,10 +60,8 @@ Apka Rakshak is a security application designed to protect Android users from ma
 
 For questions about this Privacy Policy:
 
-**Developer:** Rajveer Khanvilkar & Swarali Adhau
-
-**Email:** teamrakshak.app@gmail.com 
-
+**Developer:** Rajveer Khanvilkar & Swarali Adhau 
+**Email:** teamrakshak.app@gmail.com  
 **Response Time:** Within 48 hours
 
 ---
