@@ -343,9 +343,12 @@ All information is processed **locally on your device**. We use it only for:
 
 If you have any questions about this Privacy Policy or our data practices:
 
-**Developer:** Rajveer Khanvilkar
+**Developer:** Rajveer Khanvilkar  
+**Developer:** Swarali Adhau   
 
-**Email:** rajveer.khanvilkarbhosle70@gmail.com
+**Email:** rajveer.khanvilkarbhosle70@gmail.com   
+**Email:** swarali.adhau_comp23@pccoer.in    
+**Email:** teamrakshak.app@gmail.com
 
 **Response Time:** We aim to respond within 48 hours
 
