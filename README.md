@@ -5,6 +5,7 @@ This repository contains the Privacy Policy for **Apka Rakshak** (Your Protector
 **Developer:** Rajveer Khanvilkar & Swarali Adhau
 **Email:** rajveer.khanvilkarbhosle70@gmail.com  
 **Email:** swarali.adhau_comp23@pccoer.in
+
 **App Package:** com.security.apkarakshak
 
 ---
