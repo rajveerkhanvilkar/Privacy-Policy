@@ -2,7 +2,8 @@
 
 **Effective Date:** January 1, 2026  
 **Last Updated:** January 1, 2026  
-**Developer:** Rajveer Khanvilkar
+**Developer:** Rajveer Khanvilkar  
+**Developer:** Swarali Adhau
 
 ---
 
