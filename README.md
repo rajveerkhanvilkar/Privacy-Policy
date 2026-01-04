@@ -68,7 +68,7 @@ For questions about this Privacy Policy:
 
 ## 📜 License
 
-This Privacy Policy is © 2026 Rajveer Khanvilkar. All rights reserved.
+This Privacy Policy is © 2026 Rajveer Khanvilkar & Swarali Adhau. All rights reserved.
 
 ---
 
