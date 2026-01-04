@@ -3,6 +3,7 @@
 This repository contains the Privacy Policy for **Apka Rakshak** (Your Protector) - an Android security app that protects users from malicious APK files.
 
 **Developer:** Rajveer Khanvilkar & Swarali Adhau
+
 **Email:** rajveer.khanvilkarbhosle70@gmail.com  
 **Email:** swarali.adhau_comp23@pccoer.in
 
