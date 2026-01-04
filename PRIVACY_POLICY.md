@@ -455,11 +455,12 @@ We're committed to protecting both your device and your privacy.
 
 ---
 
-**Developer:** Rajveer Khanvilkar  
+**Developer:** Rajveer Khanvilkar    
+**Developer:** Swarali Adhau    
 **App:** Apka Rakshak  
 **Package:** com.security.apkarakshak  
 **Last Updated:** January 1, 2026
 
 ---
 
-© 2026 Rajveer Khanvilkar. All rights reserved.
+© 2026 Rajveer Khanvilkar & Swarali Adhau. All rights reserved.
