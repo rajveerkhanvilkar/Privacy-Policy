@@ -348,7 +348,7 @@ If you have any questions about this Privacy Policy or our data practices:
 
 **Email:** rajveer.khanvilkarbhosle70@gmail.com   
 **Email:** swarali.adhau_comp23@pccoer.in    
-**Email:** teamrakshak.app@gmail.com
+**Email:** rakshakapps@gmail.com
 
 **Response Time:** We aim to respond within 48 hours
 
