@@ -6,7 +6,7 @@ This repository contains the Privacy Policy for **Apka Rakshak** (Your Protector
 
 **Email:** rajveer.khanvilkarbhosle70@gmail.com     
 **Email:** swarali.adhau_comp23@pccoer.in     
-**Email:** teamrakshak.app@gmail.com     
+**Email:** rakshakapps@gmail.com     
 
 **App Package:** com.security.apkarakshak
 
@@ -61,7 +61,7 @@ Apka Rakshak is a security application designed to protect Android users from ma
 For questions about this Privacy Policy:
 
 **Developer:** Rajveer Khanvilkar & Swarali Adhau    
-**Email:** teamrakshak.app@gmail.com     
+**Email:** rakshakapps@gmail.com     
 **Response Time:** Within 48 hours    
 
 ---
