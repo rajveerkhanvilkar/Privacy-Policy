@@ -87,6 +87,8 @@ If you have any questions regarding your privacy while using Apka Rakshak:
 **Developers:** Rajveer Khanvilkar & Swarali Adhau  
 **Primary Email:** rakshakapps@gmail.com  
 **Developer Email:** rajveer.khanvilkarbhosle70@gmail.com  
+**Developer Email:** swaralii.178@gmail.com  
+
 
 ---
 
