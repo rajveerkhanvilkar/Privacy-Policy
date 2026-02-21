@@ -1,461 +1,93 @@
 # Privacy Policy for Apka Rakshak
 
-**Effective Date:** January 1, 2026  
-**Last Updated:** January 1, 2026  
-**Developer:** Rajveer Khanvilkar
+**Effective Date:** February 21, 2026  
+**Last Updated:** February 21, 2026  
+**Developers:** Rajveer Khanvilkar & Swarali Adhau
 
 ---
 
 ## Introduction
 
-Thank you for choosing **Apka Rakshak** (Your Protector). Your privacy is extremely important to us. This Privacy Policy explains in simple terms what information we collect, how we use it, and your rights regarding your data.
+Thank you for choosing **Apka Rakshak** (Your Protector). Your privacy is our top priority. This Privacy Policy explains how Apka Rakshak functions as a security layer and our commitment to protecting your data.
 
 **The Short Version:**
-- ✅ We DON'T collect your personal information
-- ✅ We DON'T read your WhatsApp messages
-- ✅ We DON'T send your data to any servers
-- ✅ Everything happens locally on your device
-- ✅ You have full control over your data
+- ✅ We **DO NOT** collect your personal information.
+- ✅ We **DO NOT** read your WhatsApp messages or private chats.
+- ✅ We **DO NOT** send your data to any servers or third parties.
+- ✅ Everything happens locally on your device in real-time.
+- ✅ We **DO NOT** use the `REQUEST_INSTALL_PACKAGES` permission.
 
 ---
 
-## What Information We Collect
+## How Apka Rakshak Works
 
-### Information We DO Collect
+Apka Rakshak acts as a **Security Interceptor**. It is designed to evaluate APK files at the moment of installation to protect you from malware and scams.
 
-**1. APK File Information (Local Only)**
-- **What:** Names and locations of APK files in WhatsApp folders
-- **Why:** To detect potentially dangerous APK files
-- **How:** By monitoring specific folders on your device
-- **Stored:** Only on your device, never sent anywhere
-
-**Example:** If you receive "whatsapp_gold.apk" via WhatsApp, we detect the file name and path to warn you.
-
-**2. App Settings**
-- **What:** Your Strict Mode preference (ON/OFF)
-- **Why:** To remember your security settings
-- **How:** Stored in your device's local storage
-- **Stored:** Only on your device
+### Information We Evaluate (Local Only)
+1. **APK File Metadata**: When you tap an APK to install, we check the file path and origin (e.g., if it is located in a WhatsApp media folder).
+2. **Installation Intent**: We intercept the system's "View" intent for APK files to provide a security check before handing it off to the final installer.
+3. **App Settings**: We store your "Strict Mode" preference locally to determine how aggressive the security warnings should be.
 
 ---
 
-### Information We DON'T Collect
+## Information We DO NOT Collect
 
-We want to be crystal clear about what we DON'T collect:
-
-❌ **Personal Information**
-- No name, email, or phone number
-- No user accounts or passwords
-- No personal identification
-
-❌ **WhatsApp Messages**
-- We NEVER read your chats
-- We NEVER access WhatsApp's database
-- We NEVER see message content
-- We only monitor public file folders
-
-❌ **Contacts & Communications**
-- No access to your contacts
-- No access to your call logs
-- No access to your SMS messages
-
-❌ **Location Data**
-- We don't track where you are
-- We don't use GPS
-- We don't collect location history
-
-❌ **Photos & Media**
-- We don't access your photos
-- We don't access your videos
-- We don't access your music
-- We only look at APK files
-
-❌ **Browsing & Activity**
-- We don't track what apps you use
-- We don't monitor your browsing
-- We don't collect usage statistics
-
-❌ **Device Information**
-- We don't collect device IDs
-- We don't collect phone numbers
-- We don't collect advertising IDs
+We are committed to "Data Minimization." We do not access:
+- ❌ **Identity**: No name, email, phone number, or account info.
+- ❌ **Communications**: No chat logs, SMS, or call history.
+- ❌ **Location**: No GPS or movement tracking.
+- ❌ **Media**: No access to your personal photos, videos, or documents.
+- ❌ **Usage**: No analytics or tracking of which other apps you use.
 
 ---
 
-## How We Use Information
+## Data Sharing & Storage
 
-### Local Processing Only
+### 1. No External Transmission
+Apka Rakshak operates **100% offline**. It does not have permission to access the internet, meaning no data can ever leave your device. We have no external servers and no backend database.
 
-All information is processed **locally on your device**. We use it only for:
+### 2. No Third-Party Analytics
+We do NOT use Google Analytics, Firebase, Crashlytics, or any other tracking SDKs. Your app usage is completely private.
 
-**1. Security Protection**
-- Detecting APK files in WhatsApp folders
-- Warning you about potentially dangerous files
-- Blocking suspicious installations (when Strict Mode is ON)
-
-**2. App Functionality**
-- Showing you notifications about detected APKs
-- Displaying information on the warning screen
-- Remembering your Strict Mode setting
-
-**3. No Other Purpose**
-- We DON'T use your data for advertising
-- We DON'T use your data for analytics
-- We DON'T use your data for marketing
-- We DON'T sell your data to anyone
+### 3. Local Storage Only
+Any configuration (like Strict Mode) is stored using Android's local SharedPreferences, which are deleted automatically when you uninstall the app.
 
 ---
 
-## Data Sharing
+## Permissions Simplified
 
-### We DON'T Share Your Data
+We only use the minimum permissions required to protect your device:
 
-**Simple Answer:** We don't share ANY data with ANYONE because we don't collect it in the first place!
-
-**Details:**
-- ❌ No data sent to our servers (we don't have servers!)
-- ❌ No data shared with third parties
-- ❌ No data sold to advertisers
-- ❌ No data used for analytics
-- ❌ No data sent over the internet
-
-**Everything stays on your device, period.**
+1. **READ_EXTERNAL_STORAGE**: Specifically used to scan the APK files you have downloaded into folders like WhatsApp Media for potential threats.
+2. **FOREGROUND_SERVICE**: Allows the app to monitor your download folders in real-time so it can warn you as soon as a suspicious file arrives.
+3. **VIBRATE / NOTIFICATIONS**: Used to provide immediate feedback and alerts when a threat is detected.
+4. **NO INSTALL PERMISSION**: Unlike other security apps, we **do not** use `REQUEST_INSTALL_PACKAGES`. We rely on safe intent-forwarding to the official Android system installer.
 
 ---
 
-## Data Storage & Security
+## Your Rights
 
-### Where Your Data is Stored
-
-**Location:** Only on your device
-
-**Storage Method:**
-- App settings: Android SharedPreferences (encrypted on Android 6.0+)
-- APK detection history: Temporary local storage
-- Nothing stored on external servers
-
-### How Long We Keep Data
-
-**APK Detection History:**
-- Stored temporarily while app is running
-- Automatically cleared when you:
-  - Clear app data
-  - Uninstall the app
-
-**App Settings:**
-- Stored until you uninstall the app
-- Can be cleared anytime from Settings
-
-### How to Delete Your Data
-
-**Option 1: Clear App Data**
-1. Go to Settings → Apps → Apka Rakshak
-2. Tap "Storage"
-3. Tap "Clear Data"
-4. All data is immediately deleted
-
-**Option 2: Uninstall**
-1. Uninstall Apka Rakshak
-2. All data is automatically removed
-
-**Result:** Complete deletion, no traces left
+Since all data stays on your device, you have total control:
+- **To Delete Data**: Simply "Clear Cache/Data" in Android Settings or uninstall the app.
+- **To Stop Monitoring**: Turn off "Strict Mode" in the dashboard or disable the monitoring service.
+- **Transparency**: Our logic is transparent—we act only as a warning layer and always hand off to the official system installer for the actual installation.
 
 ---
 
-## Permissions Explained
+## Updates to This Policy
 
-### Why We Need These Permissions
-
-**1. Storage Permission (READ_EXTERNAL_STORAGE)**
-- **What it allows:** Access to files on your device
-- **What we use it for:** Reading APK files in WhatsApp folders
-- **What we DON'T do:** Access your photos, videos, or documents
-- **Example:** When "app.apk" appears in WhatsApp folder, we can detect it
-
-**2. Install Packages Permission (REQUEST_INSTALL_PACKAGES)**
-- **What it allows:** Monitor app installation attempts
-- **What we use it for:** Detecting when you try to install an APK
-- **What we DON'T do:** Install apps without your permission
-- **Example:** When you tap an APK to install, we can check if it's safe
-
-**3. Notifications Permission (POST_NOTIFICATIONS)**
-- **What it allows:** Show notifications
-- **What we use it for:** Warning you about detected APK files
-- **What we DON'T do:** Send spam or promotional notifications
-- **Example:** "⚠️ Suspicious APK detected in WhatsApp"
-
-**4. Foreground Service Permission (FOREGROUND_SERVICE)**
-- **What it allows:** Run monitoring service in background
-- **What we use it for:** Continuously watching for new APK files
-- **What we DON'T do:** Collect data or track you
-- **Example:** Service runs to detect APKs as soon as they arrive
-
----
-
-## Third-Party Services
-
-### We DON'T Use Third-Party Services
-
-**No Analytics:**
-- ❌ No Google Analytics
-- ❌ No Firebase Analytics
-- ❌ No Crashlytics
-- ❌ No usage tracking
-
-**No Advertising:**
-- ❌ No ad networks
-- ❌ No ad tracking
-- ❌ No personalized ads
-- ❌ Completely ad-free
-
-**No Cloud Services:**
-- ❌ No cloud storage
-- ❌ No remote databases
-- ❌ No server communication
-- ❌ Everything is local
-
-**Only Standard Android Libraries:**
-- ✅ AndroidX (Google's official libraries)
-- ✅ Material Design (Google's UI library)
-- ✅ Kotlin Standard Library
-- **Note:** These are offline libraries that don't collect data
-
----
-
-## Children's Privacy
-
-**Age Restriction:** This app is not designed for children under 13.
-
-**What this means:**
-- We don't knowingly collect data from children
-- The app is designed for adult users
-- Parents should supervise if children use it
-
-**If you're a parent:**
-- You can use this app to protect your child's device
-- No child-specific data is collected
-- All privacy protections apply equally
-
----
-
-## Your Privacy Rights
-
-### What You Can Do
-
-**1. Access Your Data**
-- All data is stored locally on your device
-- You can view it in app settings
-- No hidden data collection
-
-**2. Delete Your Data**
-- Clear app data anytime from Settings
-- Uninstall to remove everything
-- Immediate and complete deletion
-
-**3. Control Data Collection**
-- Turn OFF Strict Mode to disable monitoring
-- Uninstall if you don't want the app
-- No data collected after uninstall
-
-**4. No Account Required**
-- No login needed
-- No user accounts
-- No data tied to your identity
-
-### Your Rights Under Privacy Laws
-
-**For EU Users (GDPR):**
-- ✅ Right to access data (it's all local, you can see it)
-- ✅ Right to delete data (clear app data anytime)
-- ✅ Right to data portability (not applicable - no personal data)
-- ✅ Right to object (uninstall the app)
-
-**For California Users (CCPA):**
-- ✅ Right to know what data is collected (explained above)
-- ✅ Right to delete data (clear app data)
-- ✅ Right to opt-out of sale (we don't sell data)
-- ✅ Right to non-discrimination (no premium features)
-
-**For All Users:**
-- ✅ Complete transparency
-- ✅ Full control over your data
-- ✅ No hidden practices
-- ✅ Privacy-first design
-
----
-
-## How We Protect Your Privacy
-
-### Privacy-First Design
-
-**1. No Internet Connection**
-- App works completely offline
-- No data transmitted over network
-- No server communication
-
-**2. Minimal Data Collection**
-- Only collect what's absolutely necessary
-- No personal information
-- No tracking or analytics
-
-**3. Local Processing**
-- All analysis happens on your device
-- No cloud processing
-- Your data never leaves your device
-
-**4. Transparent Operation**
-- Clear notifications about what we're doing
-- Detailed explanations in app
-- This privacy policy
-
-**5. User Control**
-- You can disable monitoring anytime
-- You can delete all data
-- You can uninstall completely
-
----
-
-## Updates to This Privacy Policy
-
-### How We Handle Changes
-
-**When we update:**
-- We'll update the "Last Updated" date
-- We'll notify you in the app (for major changes)
-- You can review changes anytime
-
-**What triggers updates:**
-- New features added
-- Changes in data practices
-- Legal requirements
-- User feedback
-
-**Your continued use:**
-- Using the app after updates means you accept the new policy
-- You can always uninstall if you disagree
+We may update this policy to reflect changes in our security features. We recommend checking the "Last Updated" date at the top of this document. Continued use of the app implies acceptance of the current policy.
 
 ---
 
 ## Contact Us
 
-### Questions or Concerns?
+If you have any questions regarding your privacy while using Apka Rakshak:
 
-If you have any questions about this Privacy Policy or our data practices:
-
-**Developer:** Rajveer Khanvilkar
-
-**Email:** rajveer.khanvilkarbhosle70@gmail.com
-
-**Response Time:** We aim to respond within 48 hours
-
-**What you can ask about:**
-- How we handle your data
-- What permissions we use
-- How to delete your data
-- Any privacy concerns
+**Developers:** Rajveer Khanvilkar & Swarali Adhau  
+**Primary Email:** rakshakapps@gmail.com  
+**Developer Email:** rajveer.khanvilkarbhosle70@gmail.com  
 
 ---
 
-## Transparency Commitment
-
-### Our Promise to You
-
-We believe in complete transparency. Here's our commitment:
-
-**We Promise:**
-- ✅ To be honest about our data practices
-- ✅ To collect only necessary data
-- ✅ To keep your data on your device
-- ✅ To never sell your data
-- ✅ To respect your privacy
-
-**We Will Never:**
-- ❌ Collect personal information
-- ❌ Read your messages
-- ❌ Track your activities
-- ❌ Share your data
-- ❌ Deceive you about our practices
-
----
-
-## Summary in Simple Terms
-
-### The Bottom Line
-
-**What Apka Rakshak Does:**
-1. Monitors WhatsApp folders for APK files
-2. Warns you about suspicious files
-3. Blocks dangerous installations (optional)
-4. Protects you from scams
-
-**What Apka Rakshak Doesn't Do:**
-1. ❌ Collect your personal information
-2. ❌ Read your WhatsApp messages
-3. ❌ Send data to servers
-4. ❌ Track your activities
-5. ❌ Share data with anyone
-
-**Your Privacy:**
-- Everything happens on your device
-- No data leaves your phone
-- You have complete control
-- Delete data anytime
-
-**Our Goal:**
-- Protect you from APK scams
-- Respect your privacy
-- Be transparent
-- Give you control
-
----
-
-## Legal Information
-
-### Governing Law
-
-This Privacy Policy is governed by the laws of India.
-
-### Dispute Resolution
-
-Any disputes will be resolved through:
-1. Direct communication with developer
-2. Mediation (if needed)
-3. Arbitration in India (if necessary)
-
-### Severability
-
-If any part of this policy is found invalid, the rest remains in effect.
-
----
-
-## Acknowledgment
-
-By using Apka Rakshak, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.
-
-If you do not agree with this Privacy Policy, please do not use the app.
-
----
-
-## Version History
-
-**Version 1.0 - January 1, 2026**
-- Initial privacy policy
-- Covers all current app features
-- Explains all data practices
-
----
-
-**Thank you for trusting Apka Rakshak with your security!**
-
-We're committed to protecting both your device and your privacy.
-
----
-
-**Developer:** Rajveer Khanvilkar  
-**App:** Apka Rakshak  
-**Package:** com.security.apkarakshak  
-**Last Updated:** January 1, 2026
-
----
-
-© 2026 Rajveer Khanvilkar. All rights reserved.
+© 2026 Apka Rakshak Team. All rights reserved.
