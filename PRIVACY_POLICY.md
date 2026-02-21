@@ -92,4 +92,4 @@ If you have any questions regarding your privacy while using Apka Rakshak:
 
 ---
 
-© 2026 Apka Rakshak Team. All rights reserved.
+This project and its documentation are © 2026 Rajveer Khanvilkar & Swarali Adhau. All rights reserved.
